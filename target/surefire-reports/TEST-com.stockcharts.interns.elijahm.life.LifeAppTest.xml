@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.stockcharts.interns.elijahm.life.LifeAppTest" time="23.809" tests="3" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/elijahm/repos/life/target/test-classes:/Users/elijahm/repos/life/target/classes:/Users/elijahm/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/elijahm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/elijahm/.m2/repository/com/googlecode/princeton-java-algorithms/algorithms/4.0.1/algorithms-4.0.1.jar:/Users/elijahm/.m2/repository/com/googlecode/princeton-java-introduction/stdlib/1.0.1/stdlib-1.0.1.jar:/Users/elijahm/.m2/repository/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/Users/elijahm/.m2/repository/java3d/j3d-core-utils/1.3.1/j3d-core-utils-1.3.1.jar:/Users/elijahm/.m2/repository/java3d/j3d-core/1.3.1/j3d-core-1.3.1.jar:/Users/elijahm/.m2/repository/gov/nist/math/jama/1.0.3/jama-1.0.3.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@11/11.0.19/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/elijahm/repos/life/target/surefire/surefirebooter-20230620180508065_3.jar /Users/elijahm/repos/life/target/surefire 2023-06-20T18-05-08_028-jvmRun1 surefire-20230620180508065_1tmp surefire_0-20230620180508065_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/elijahm/repos/life/target/test-classes:/Users/elijahm/repos/life/target/classes:/Users/elijahm/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/elijahm/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/elijahm/.m2/repository/com/googlecode/princeton-java-algorithms/algorithms/4.0.1/algorithms-4.0.1.jar:/Users/elijahm/.m2/repository/com/googlecode/princeton-java-introduction/stdlib/1.0.1/stdlib-1.0.1.jar:/Users/elijahm/.m2/repository/java3d/vecmath/1.3.1/vecmath-1.3.1.jar:/Users/elijahm/.m2/repository/java3d/j3d-core-utils/1.3.1/j3d-core-utils-1.3.1.jar:/Users/elijahm/.m2/repository/java3d/j3d-core/1.3.1/j3d-core-1.3.1.jar:/Users/elijahm/.m2/repository/gov/nist/math/jama/1.0.3/jama-1.0.3.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/elijahm"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@11/11.0.19/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/elijahm/repos/life"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/elijahm/repos/life/target/surefire/surefirebooter-20230620180508065_3.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.19+0"/>
+    <property name="user.name" value="elijahm"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="13.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/elijahm/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qs/sqpcsnxx5l71bcj5zvldfl9m0000gn/T/"/>
+    <property name="java.version" value="11.0.19"/>
+    <property name="user.dir" value="/Users/elijahm/repos/life"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/elijahm/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="11.0.19+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="benchmark_parallel_state_transition" classname="com.stockcharts.interns.elijahm.life.LifeAppTest" time="23.789">
+    <system-out><![CDATA[update 0 finished sequentially
+update 1 finished sequentially
+update 2 finished sequentially
+update 3 finished sequentially
+update 4 finished sequentially
+update 5 finished sequentially
+update 6 finished sequentially
+update 7 finished sequentially
+update 8 finished sequentially
+update 9 finished sequentially
+update 0 finished in parallel
+update 1 finished in parallel
+update 2 finished in parallel
+update 3 finished in parallel
+update 4 finished in parallel
+update 5 finished in parallel
+update 6 finished in parallel
+update 7 finished in parallel
+update 8 finished in parallel
+update 9 finished in parallel
+time parallel       1177908625
+time seq            21673895750
+]]></system-out>
+    <system-err><![CDATA[Exception in thread "Thread-4" Exception in thread "Thread-9" Exception in thread "Thread-7" Exception in thread "Thread-6" Exception in thread "Thread-2" Exception in thread "Thread-3" Exception in thread "Thread-8" Exception in thread "Thread-5" java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+java.lang.ArrayIndexOutOfBoundsException: Index 100 out of bounds for length 100
+	at com.stockcharts.interns.elijahm.life.State.checkCell(State.java:107)
+	at com.stockcharts.interns.elijahm.life.State.lambda$parallelNextState$0(State.java:81)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+Exception in thread "Thread-10" Exception in thread "Thread-11" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-14" Exception in thread "Thread-12" Exception in thread "Thread-13" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-15" Exception in thread "Thread-16" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-17" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-18" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-19" Exception in thread "Thread-20" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-23" Exception in thread "Thread-24" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-22" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-21" Exception in thread "Thread-25" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-27" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-31" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-28" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-30" Exception in thread "Thread-29" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-33" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-26" Exception in thread "Thread-32" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-34" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-35" Exception in thread "Thread-36" Exception in thread "Thread-38" Exception in thread "Thread-39" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-40" Exception in thread "Thread-41" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-37" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-43" Exception in thread "Thread-44" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-42" Exception in thread "Thread-45" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-46" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-47" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-48" Exception in thread "Thread-49" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-50" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-51" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-52" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-53" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-54" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-55" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-57" Exception in thread "Thread-56" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-58" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-59" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-60" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-61" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-63" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-62" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-64" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-65" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-66" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-67" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-68" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-69" Exception in thread "Thread-70" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-72" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-73" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-71" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-74" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-76" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-77" Exception in thread "Thread-75" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-78" java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-79" Exception in thread "Thread-80" java.lang.ArrayIndexOutOfBoundsException
+java.lang.ArrayIndexOutOfBoundsException
+Exception in thread "Thread-81" java.lang.ArrayIndexOutOfBoundsException
+]]></system-err>
+  </testcase>
+  <testcase name="test_state_transition_complicated" classname="com.stockcharts.interns.elijahm.life.LifeAppTest" time="0">
+    <system-out><![CDATA[test running
+]]></system-out>
+  </testcase>
+  <testcase name="test_state_transition" classname="com.stockcharts.interns.elijahm.life.LifeAppTest" time="0">
+    <system-out><![CDATA[test running
+]]></system-out>
+  </testcase>
+</testsuite>
